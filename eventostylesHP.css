@@ -1,0 +1,403 @@
+body{
+    background-color: black; 
+    color: white;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Roboto','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body p{
+    font-family: 'Roboto','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+dl, ol{
+    font-family: 'Roboto','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    align-content: center;
+    padding-left: 5.5em;
+}
+
+ol li{
+    margin-left: 5em;
+    padding-left: 0.5em;
+}
+
+.bgimage{
+    /* background-image: url(concert1.jpg); */
+    background-image: url(venueimgfinnn.png); 
+    background-color: black;
+    width: 98vw; 
+    height: 90vh; 
+    background-size: cover;
+}
+
+.bg-catering{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(97, 97, 93, 0.2),rgba(0,0,0,0.8)),url(winedrinks.jpg);
+    background-repeat: no-repeat !important;
+    background-position: center right, top left !important;
+    width: 98vw; 
+    height: 80vh; 
+}
+
+.bg-venue{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(65, 65, 62, 0.2),rgba(0,0,0,0.8)),url(venuebgsection.png);
+    background-repeat: no-repeat !important;
+    background-position: center right, top left !important;
+    width: 98vw; 
+    height: 80vh; 
+}
+
+.bg-contactus{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    width: 78vw; 
+    height: 80vh; 
+    padding-left: 10em;
+}
+.bg-aboutus{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    width: 78vw; 
+    height: 80vh; 
+    padding-left: 10em;
+}
+
+.center-end{
+    display: flex;
+    align-items: center;
+    place-content: flex-start;
+
+}
+
+.textonbgimage{
+    /* margin-left: 2em; */
+    margin-left: 1em;
+    padding-left: 15px;
+    display: flex;
+    top: 80%; 
+    left:10%; 
+    font-size: 8rem;
+    font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textonbg-catering{
+    margin-left: 5em;
+    text-align: left;
+    top: 80%; 
+}
+.textonbg-catering h2{
+    font-size: 3.5em;
+}
+.textonbg-catering p{
+    width: 40vw;
+    font-size: 2em;
+}
+
+.textonbg-venue{
+    margin-left: 5em;
+    text-align: left;
+    top: 80%; 
+}
+.textonbg-venue h2{
+    font-size: 3.5em;
+}
+.textonbg-venue p{
+    width: 40vw;
+    font-size: 2em;
+}
+
+.lightball-section{
+    /* margin-left: 5em; */
+    padding-bottom: 6em;
+    display: flex;
+    align-items: center;
+    place-content: space-evenly;
+    width: 100%;
+    text-align: justify;
+}
+
+.gif-run{
+    width: 35%;
+    margin-top: -9em;
+}
+
+.lightball-text{
+    padding-top: 3em;
+    width: 35%;
+    height: 80%;
+}
+
+.artist-section{
+    /* margin-left: 5em; */
+    padding-top: 6em;
+    padding-bottom: 6em;
+    display: flex;
+    align-items: center;
+    place-content: space-evenly;
+    width: 100%;
+    text-align: justify;
+}
+
+.gif-artist-run{
+    width: 35%;
+}
+
+.artists-text{
+    padding-top: 3em;
+    width: 35%;
+    height: 80%;
+}
+
+
+.menu-ul{
+    width: 100%; 
+    float: right;
+    /* display: flex; 
+    place-content: space-around;  */
+    align-items: center; 
+    height: 6em; 
+    margin: 0px; 
+    padding: 0px;
+}
+nav{
+    background-color: black; 
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+nav ul li:first-child{
+    float: left;
+    padding-left: 5px;
+    margin-left: 5em;
+    margin-top: 0px;
+    cursor: pointer;
+}
+nav a {
+    text-decoration: none;
+    padding-top: 30px;
+}
+nav li{ 
+    float: right;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 13%; 
+    font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px; 
+    text-align: center; 
+    padding: 2px;
+    margin-top: 5px;
+}
+nav li a:hover{
+    border-bottom: 3px solid #FFBD59;
+
+}
+section.join{
+    background-color: #1F4068; 
+    color: #D4ECDD; 
+    text-align: center; 
+    font-size: 20px;
+    padding: 50px 20px;
+}
+.images{
+    align-items: center; 
+    display: flex; 
+    place-content: center;
+}
+.images li{
+    display: inline-block; 
+    width: 20%; 
+    margin-left: 25px; 
+    align-items: center;
+}
+
+.imgdeco{
+    border-radius: 2em !important;
+}
+
+.images li:hover{
+    position: relative;
+    top: -40px;
+}
+
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    background: #FFBD59;
+    cursor: pointer;
+    border-radius: 1em;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+
+
+.menu .service-menu{
+    width: max-content;
+    display: flex;
+    width: fit-content;
+
+}
+
+.menu .service-menu .box{
+    padding: 3.8rem;
+    text-align: center;
+    
+}
+
+.menu .service-menu .box a{
+    text-decoration: none;
+}
+
+.menu .service-menu .box img{
+    height: 10rem;
+}
+
+.menu .service-menu .box h3{
+    color: white;
+    font-size: 1.8rem;
+    padding:1rem 0;
+}
+
+
+.menu .service-menu .box:hover{
+    background:#ffbd59a8;
+    border-radius: 6%;
+}
+
+.menu .service-menu .box:hover > *{
+    color: black;
+}
+
+
+footer{
+    background-color: black;
+    color: black;
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    bottom: 0; 
+    width: 100%;
+}
+
+footer .share{
+    padding:1rem 0;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    
+    
+}
+
+footer .share a{
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    margin:.3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+footer .share a:hover{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    transition-duration: 0.7s;
+    box-shadow: 0 12px 16px 0 #FFBD59, 0 17px 50px 0 #FFBD59;
+}
+
+footer .copyright{
+    background-color: #FFBD59;
+    padding:  0.2em;
+    font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em; 
+}
+
+article section p{
+    font-size: 20px;
+}
+map area {
+    display: inline-block;
+}
+section div.contact-main{
+    font-size: 25px; 
+    width: 30%; 
+    padding: 10px; 
+    float: left;
+}
+.imagecenter{
+    display: flex;
+    place-content: center;
+}
+
+
+
+
+
+.dropbtn {
+    /* background-color: #04AA6D; */
+    color: white;
+    font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px; 
+    text-align: center; 
+    padding: 2px;
+    
+    background-color: black;
+    margin-top: 1.4em;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    font-size: 16px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #FFBD59; color: black;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      
+    border-bottom: 3px solid #FFBD59;
+  }

@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CONTACT | EVENTO</title>
+        <link rel="icon" type="image/x-icon" href="evento.ico">
+
+        <link rel="stylesheet" href="eventostylesHP.css">
+        <link rel="stylesheet" href="eventocontactP.css">
+        <!-- for social media icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    
+
+    <body>
+        
+        <nav style="display: flex;">
+            <ul class="menu-ul">
+                <li><img src="logo.png" alt="picture of the logo" width="90" height="90" onclick="window.location.href='homepage1.html'" /></li>
+    
+    
+                <li><a href="loginpage1.html" style="color: white;">Login</a></li>
+                <!-- <li><a href="contactus1.html" style="color: white;">Contact</a></li> -->
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Contact</button>
+                        <div class="dropdown-content">
+                          <a href="contactus1.html">Contact Us</a>
+                          <a href="aboutus1.html">About Us</a>
+                          <a href="#feedbackconnec">Feedback</a> 
+                        </div>
+                    </div>
+    
+                </li>
+    
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Services</button>
+                        <div class="dropdown-content">
+                          <a href="#">Venue</a>
+                          <a href="#">Catering</a>
+                          <a href="#">Artist Booking</a>
+                          <a href="#">Ticket Booking</a>
+                        </div>
+                    </div>
+    
+                </li>
+    
+                <li><a href="homepage1.html" style="color: white;">Home</a></li>
+            </ul>
+        </nav>
+
+        <br><br>
+
+        <div class="form-container" id = "feedbackconnec">
+            <div class="form-border">
+                <form id="form" class="form" action="php/feedback.php" method="post">
+                    <!-- <label for="text">Name:</label><input type="text"  name="name of person" > 
+                    <br>
+                    <label for="email">Email ID:</label><input type="email" name="email of person">
+                    <br>
+                    <label for="tel">Phone number:</label><input type="tel" name="phnum of person">
+                    <br>
+                    <label for="option">About:</label> -->
+
+                    <div class="form-element">
+                        <input type="text"  name="name" placeholder="Name"  id="username"> 
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <br>
+                        <small>Error message</small>
+                    </div>
+
+                    <br>
+
+                    <div class="form-element" >
+                        <input type="email" name="email" placeholder="example@gmail.com" id="email">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <br>
+                        <small>Error message</small>
+
+                    </div>
+                    <br>
+
+                    <div class="form-element">
+                        <input type="tel" name="phnum" placeholder="999999999" id="phonenum">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <br>
+                        <small>Error message</small>
+
+                    </div>
+                    <br>
+                    
+
+                    <!-- Name: &emsp;&emsp;&emsp;&emsp; <input type="text"  name="name of person" >    <br><br>
+                    Email ID: &emsp;&emsp;&emsp;<input type="email" name="email of person"> <br><br>
+                    Phone number:&emsp;<input type="tel" name="phnum of person"> <br><br>
+                    &ensp;About:    &emsp;&emsp;&ensp;&ensp; -->
+
+                    <label for="option">About:</label>
+                    <select width = 100px id="about" name="about">
+                    <option> Venue </option>
+                    <option> Pricing and Management </option>
+                    <option> Artists </option>
+                    <option> Catering </option>
+                    <option> Services </option>
+                    </select>
+        
+                    <br><br>
+        
+                    <h3 style="font-weight: normal;">Feedback/Suggestion:</h3>
+        
+                    <textarea rows="5" cols="30" name="feedback" id="feedback"></textarea>
+        
+                    <br><br>
+        
+                    <button class="allbutton" type="submit" id="btn" >Submit</button>
+                    <button class="allbutton" type="reset" onClick="window.location.reload(true)">Reset</button>
+        
+                    <!-- <h2>Displaying the data:</h2>
+                    <div id="msg">
+                        <pre></pre>
+                    </div> -->
+                </form>
+
+            </div>
+
+        </div>
+            
+    
+
+        <!-- <script src="feedbacF_validation.js"></script> -->
+
+        <footer>
+
+            <div class="share">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a href="https://in.linkedin.com/" class="fab fa-linkedin"></a>
+                <a href="https://in.pinterest.com/" class="fab fa-pinterest"></a>
+            </div>
+            <div class="copyright">
+                <p>
+                    <center>Copyright 2022 EVENTO</center>
+                </p>
+                <p>
+                    <center>All rights reserved.</center>
+                </p>
+            </div>
+                
+        </footer>
+
+
+    </body>
+</html>
